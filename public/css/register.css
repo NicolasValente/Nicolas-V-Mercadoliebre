@@ -1,0 +1,12 @@
+header{
+    background-color: #EAC926;
+}
+header img{
+    max-width: 200px;
+}
+
+img{
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
