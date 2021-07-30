@@ -23,9 +23,8 @@ app.get('*', function (request, response){
     response.send('NOT FOUND', 404)
 })
 
-app.listen(port, ()=>{
-    console.log('La app esta funcionado en http://localhost:'+ port)
+
 })
-app.listen(porcess.env.PORT ||  3000, function() {
-    console.log('Servidor corriendo en el puerto 3000');
+app.listen(port, function() {
+    console.log('Servidor corriendo en el puerto' + port);
 })
